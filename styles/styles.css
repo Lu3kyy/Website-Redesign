@@ -1,1 +1,19 @@
-/* placeholder */
+/* navbar height */
+.custom-nav {
+  height: 82px;
+}
+.brand-logo { /* navbar image */
+  width: 45px;     
+  height: 45px;    
+  object-fit: contain;
+}
+.brand-text {
+  color: #444444;
+  font-size: 23px;
+  font-weight: 500;
+}
+.navbar-nav .nav-link { /*making font bigger and black*/
+  font-size: 1rem;
+  margin-left: 25px;
+  color: #000;
+}
