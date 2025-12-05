@@ -486,6 +486,11 @@ main {
     margin-left: 0;
     text-align: center;
   }
+  /* center hero content elements (including the button) on small screens */
+  .hero-content {
+    align-items: center;
+    text-align: center;
+  }
   /* cards shrink and center */
   .printer-card {
     width: 80%;
@@ -511,6 +516,16 @@ main {
   }
   .product-card img {
     height: 250px;
+  }
+   .custom-row {
+    align-items: stretch; 
+  }
+  .custom-row > [class*="col-"] {
+    display: flex;
+    flex-direction: column;
+  }
+  .custom-row > [class*="col-"] > :not(.readmore-btn) {
+    flex: 1 1 auto;
   }
 }
 @media (max-width: 480px) {
