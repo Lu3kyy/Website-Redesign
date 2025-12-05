@@ -258,7 +258,7 @@ main {
   line-height: 1.4;
 }
 /* Product Cards */
-.pp-card {
+.pp-card { /* CARD SIZING EXACTLY LIKE FIGMA*/
   width: 100%;
   max-width: 360px;
   height: 650px;
@@ -272,7 +272,7 @@ main {
 .pp-img {
   height: 325px;
   width: 100%;
-  object-fit: cover;
+  object-fit: cover; /* IMAGE FITS CARD PERFECTLY*/
 }
 .pp-body {
   padding: 18px;
@@ -444,7 +444,7 @@ main {
 /*MOBILE RESPONSIVENESS*/
 @media (max-width: 768px) {
 
-  /* Make navbar links stack cleanly when collapsed */
+  /* Make navbar links stack cleanly when collapsed (had lots of trouble getting my footer and navbar hamburger work but in the end i got it */
   .navbar-nav .nav-link {
     margin-left: 0;
     padding: 0.5rem 1rem;
@@ -492,7 +492,7 @@ main {
     margin: 20px auto;
     height: auto;
   }
-  /* why section grid improves on small screens */
+  /* why grid not showing on small screens like figma*/
   .why-section {
     display: none;
   }
@@ -509,7 +509,6 @@ main {
   .product-card {
     height: auto;
   }
-
   .product-card img {
     height: 250px;
   }
