@@ -406,6 +406,32 @@ main {
 .buy-btn:hover {
   background: #003c9e;
 }
+.readmore-btn {
+  width: 100%;
+  background: #484848;
+  color: #fff;
+  border: none;
+  padding: 12px 0;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.readmore-btn:hover {
+  background :rgb(43, 43, 43);
+}
+
+/* Add spacing between rows */
+.custom-row {
+  margin-bottom: 2rem; /* space between each row */
+}
+/* Optional: style images consistently */
+.custom-col img {
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
 
 
 
