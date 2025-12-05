@@ -24,6 +24,10 @@
   margin-left: 25px;
   color: #000;
 }
+.navbar{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
 
 /*FOOTER */
 .footer-container {
