@@ -408,11 +408,11 @@ main {
 }
 .readmore-btn {
   width: 100%;
-  background: #484848;
+  background: #666666;
   color: #fff;
   border: none;
   padding: 12px 0;
-  border-radius: 10px;
+  border-radius: 18px;
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
