@@ -317,12 +317,12 @@ main {
 }
 .pp-btn {
   width: 100%;
-  height: 70px;
+  height: 40px;
   background: #000A44;
   color: white;
   font-size: 20px;
   font-weight: 600;
-  border: none;
+  border: auto;
   border-radius: 12px;
   transition: 0.2s;
 }
